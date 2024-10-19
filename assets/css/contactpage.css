@@ -1,0 +1,173 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Red Banner Styling */
+.red-banner {
+    background-color: #D50000; /* University of Maryland red */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.red-banner h1 {
+    font-size: 24px;
+}
+
+/* Title and Navbar */
+.title {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.title h1 {
+    font-size: 32px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+/* Main Content for Contact Us */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    flex: 2;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #666;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+.bottom-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-section .info-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.info-columns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.info-columns .column {
+    text-align: left;
+}
+
+.info-columns .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-columns .column p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.info-columns .column a:hover {
+    text-decoration: underline;
+}
